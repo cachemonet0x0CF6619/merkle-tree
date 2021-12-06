@@ -4,5 +4,4 @@
 
 ## HOW
 
-yarn
-yarn test
+`yarn && yarn gas`
