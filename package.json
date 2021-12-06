@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "gas": "npx hardhat test",
     "test:hardhat": "npx hardhat test",
     "test:cov": "npx hardhat coverage",
     "test": "npm run test:cov"
@@ -19,6 +20,8 @@
     "ethers": "^5.0.0",
     "hardhat": "^2.6.4",
     "hardhat-gas-reporter": "^1.0.4",
+    "keccak256": "^1.0.3",
+    "merkletreejs": "^0.2.24",
     "solhint": "^3.3.6",
     "solidity-coverage": "^0.7.17"
   }
